@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
-$user = "root";
-$pass = "root123";
+$user = "webuser";
+$pass = "web123";  // coincide con el usuario que creaste
 $db = "webapp_db";
 
 $conn = new mysqli($host, $user, $pass, $db);
